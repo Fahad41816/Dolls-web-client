@@ -1,0 +1,33 @@
+
+.herosection{
+    width: 100%;
+    height: 550px;
+    background: url("../../assets//image/horebanner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 50px;
+   
+    position: relative;
+}
+
+@media screen and (max-width: 400px) {
+    
+
+    .herosection{
+        width: 100%;
+        height: 300px;
+        background: url("../../assets//image/horebanner.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        position: relative;
+    }
+    
+}
+
+ 
